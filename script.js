@@ -7,6 +7,8 @@ const PHRASES = [
   "Valentine ấm áp và bình yên nha 💖",
   "Chúc em luôn cười thật tươi 🌟💖",
   "Valentine ngọt ngào như một bản nhạc 🎶💖"
+  "Valentine có Khánh Vi là vui nhất"
+  "Anh Yêu Khánh Vi 🎶💖"
 ];
 
 const scene = document.getElementById("scene");
@@ -289,6 +291,7 @@ setInterval(createShootingStar, 3500);
 function rand(min, max) {
   return Math.random() * (max - min) + min;
 }
+
 
 
 
