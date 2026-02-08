@@ -9,6 +9,16 @@ const PHRASES = [
   "Valentine ngọt ngào như nốt bản nhạc 🎶",
   "Valentine có Khánh Vi là vui nhất",
   "Anh Yêu Khánh Vi 🎶💖"
+  "Valentine có em là đủ rồi 💕",
+"Trái tim này bấm vì em đó ❤️",
+"Mỗi lần tim rung là một lần nhớ em 💓",
+"Hôm nay trời không lạnh, vì có em ☀️",
+"Chỉ cần em cười là cả ngày vui liền 😊",
+"Valentine ngọt hơn khi có em bên cạnh 🍫",
+"Tim đập nhanh hơn một chút rồi đó 💗",
+"Em là món quà Valentine đặc biệt nhất 🎁",
+"Gặp em là thấy cả thế giới dễ thương hơn 🌎💖",
+"Yêu thương nhỏ thôi, nhưng là thật lòng 💞"
 ];
 const scene = document.getElementById("scene");
 const heartBtn = document.getElementById("heartBtn");
@@ -290,6 +300,7 @@ setInterval(createShootingStar, 3500);
 function rand(min, max) {
   return Math.random() * (max - min) + min;
 }
+
 
 
 
