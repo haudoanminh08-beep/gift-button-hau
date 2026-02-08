@@ -1,14 +1,15 @@
 const PHRASES = [
   "Khánh Vi",
   "I Love You Khánh Vi",
-  "Khánh Vi ❤️❤️❤️",
-  "Valentine vui vẻ ❤️",
-  "Có em, mọi thứ đều trở nên kỳ diệu 🌙 💖",
+  "Khánh Vi 💖",
+  "Valentine vui vẻ 💕",
+  "Cô em, mọi thứ đều trở nên kỳ diệu 🌷",
   "Valentine ấm áp và bình yên nha 💖",
-  "Chúc em luôn cười thật tươi 🌟💖",
-  "Valentine ngọt ngào như một bản nhạc 🎶💖"
+  "Chúc em luôn cười thật tươi 🌸",
+  "Valentine ngọt ngào như nốt bản nhạc 🎶",
+  "Valentine có Khánh Vi là vui nhất",
+  "Anh Yêu Khánh Vi 🎶💖"
 ];
-
 const scene = document.getElementById("scene");
 const heartBtn = document.getElementById("heartBtn");
 const musicPlayer = document.getElementById("musicPlayer");
@@ -289,6 +290,7 @@ setInterval(createShootingStar, 3500);
 function rand(min, max) {
   return Math.random() * (max - min) + min;
 }
+
 
 
 
